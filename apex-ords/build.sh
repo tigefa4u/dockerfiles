@@ -21,5 +21,5 @@ DOCKER_BUILDKIT=1 $DOCKER build \
 	--build-arg APEX_ZIP="$APEX_ZIP" --build-arg ORDS_ZIP="$ORDS_ZIP" \
 	--build-arg EXPAND_IMAGES="$EXPAND_IMAGES" \
 	-f Dockerfile \
-	-t chaosengine/apex-ords .
+	-t chaosengine/apex-ords:1.0.10_24.2.11 .
 
